@@ -1,0 +1,30 @@
+[
+    {
+        "ad": "film 1",
+        "tur": "Film",
+        "durum": "İzlendi",
+        "yildiz": "3",
+        "not": ""
+    },
+    {
+        "ad": "film 2",
+        "tur": "Film",
+        "durum": "İzleniyor",
+        "yildiz": "3",
+        "not": ""
+    },
+    {
+        "ad": "video 1",
+        "tur": "Dizi",
+        "durum": "İzlendi",
+        "yildiz": "5",
+        "not": ""
+    },
+    {
+        "ad": "video 2",
+        "tur": "Dizi",
+        "durum": "İzlenecek",
+        "yildiz": "5",
+        "not": ""
+    }
+]
