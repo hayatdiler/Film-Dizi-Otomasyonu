@@ -15,7 +15,7 @@ To automate manual tracking and provide an efficient, fast, and intuitive system
 - 📝 Add / Edit / Delete entries  
 - 🔍 Filter & Search  
 - ⭐ Rate from 0 to 5 stars  
-- 📊 Track watch status (Watched / Not Watched)  
+- 📊 Track watch status (Watched / Watching / Not Watched)  
 - 🗒️ Add personal notes  
 - 🎨 Dark-themed and modern UI  
 - 💾 Data stored locally in `veriler.json`  
