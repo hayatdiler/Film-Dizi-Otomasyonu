@@ -1,100 +1,71 @@
-# Film-Dizi-Otomasyonu
+# 🎬 Film & Series Watchlist Manager
 
-# Media Player App
-
-A Python-based media player application with GUI, supporting media listing, filtering, editing, and JSON-based storage.
-
-## 🎯 Features
-
-- List all media files from a JSON file
-- Filter media by genre or type
-- Add, delete, and update media entries
-- Simple and intuitive GUI using Tkinter
-
-## 🛠️ Technologies Used
-
-- Python 
-- Tkinter (for GUI)
-- JSON (for data storage)
-
-## 📁 Project Structure
-
-media_player/
-├── main.py
-├── gui/
-│ ├── main_window.py
-│ └── media_editor.py
-├── data/
-│ └── media.json
-└── utils/
-└── helpers.py
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/media-player-app.git
-   cd media-player-app
-Run the main file:
-
-python main.py
-📌 To-Do
- Add file playback support
-
- Improve GUI design
-
- Add search functionality
-
-📄 License
-This project is open source and available under the MIT License.
-
+A personal desktop app to manage your movies and TV shows. Add new titles, rate them, keep track of your watch status, and take personal notes — all with a beautiful and user-friendly interface.
 
 ---
 
+## 🎯 Goal
 
-# 🎵 Python Media Player
+To automate manual tracking and provide an efficient, fast, and intuitive system for organizing what you've watched or plan to watch.
 
-A simple media player application built with Python and Tkinter. This app allows you to manage a media library stored in JSON format, with features such as filtering, editing, and listing media files.
+---
 
-## 📌 Features
+## ✨ Features
 
-- 📁 Load media data from a JSON file
-- 🔍 Filter media by type (e.g., movie, music, etc.)
-- ➕ Add new media entries
-- 📝 Edit existing media
-- ❌ Delete media entries
-- 🖥️ Easy-to-use GUI with Tkinter
+- 📝 Add / Edit / Delete entries  
+- 🔍 Filter & Search  
+- ⭐ Rate from 0 to 5 stars  
+- 📊 Track watch status (Watched / Not Watched)  
+- 🗒️ Add personal notes  
+- 🎨 Dark-themed and modern UI  
+- 💾 Data stored locally in `veriler.json`  
 
-## 🛠️ Technologies
+---
 
-- Python 3.x
-- Tkinter (GUI library)
-- JSON (data storage)
+## 🏗️ System Architecture
 
-## 📂 Project Structure
+The project is designed with a **layered architecture** for better organization and scalability:
 
-media_player/
-├── main.py # Main application file
-├── gui/
-│ ├── main_window.py # Main window UI logic
-│ └── edit_window.py # Media editing window
-├── data/
-│ └── media.json # Media library (JSON file)
-└── utils/
-└── file_handler.py # JSON read/write operations
+1. **UI Layer** – Developed with `tkinter`, manages all user interaction  
+2. **Business Logic Layer** – Handles the application's core logic (CRUD)  
+3. **Data Access Layer** – Manages reading and writing to the JSON file  
+4. **Database** – A simple JSON file that stores all user data  
 
+---
 
-## ▶️ How to Run
+## 🛠️ Requirements
 
-1. **Clone the repository**
+- Python 3.7 or higher  
+- `tkinter` (usually comes pre-installed)  
+- `Pillow` → Install with `pip install Pillow`  
+- `pathlib` (comes with Python 3.4+)  
+
+---
+
+## 🚀 Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/media-player.git
-   cd media-player
-Run the application
+   git clone https://github.com/yourusername/yourproject.git
+   cd yourproject
 
-💡 Future Improvements
-🔊 Add media playback support
+2. Install dependencies:
+   ```bash
+   pip install Pillow
+3. Run the app:
+   ```bash
+   python InitialApp.py
 
-🎨 Improve the visual design (icons, colors, layout)
+## 🎯 Usage
 
-🔎 Add a search bar to filter by title or artist
+- Start → Add a new film or series
+- List → View your collection
+- Edit → Modify existing entries
+- Delete → Remove any entry
+- Filter → Search by type, rating, or status
+
+All data is stored locally in films.json. No internet or external database is required.    
+
+## 📫 Contact
+For suggestions or bug reports, feel free to open an issue.
+Made with ❤️ at Marmara University.
